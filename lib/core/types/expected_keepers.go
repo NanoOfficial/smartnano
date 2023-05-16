@@ -10,6 +10,7 @@ package types
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	capabilitytypes "github.com/cosmos/cosmos-sdk/x/capability/types"
+	connectiontypes "github.com/cosmos/ibc-go/modules/core/03-connection/types"
 	channeltypes "github.com/cosmos/ibc-go/modules/core/04-channel/types"
 	ibcexported "github.com/cosmos/ibc-go/modules/core/exported"
 )
@@ -22,7 +23,11 @@ type ChannelKeeper interface {
 }
 
 type ClientKeeper interface {
-	GetClientConsenseState(ctx sdk.Context, clientId string) (connection ibcexported.ConsensusState, found bool)
+	GetClientConsensusState(ctx sdk.Context, clientID string) (connection ibcexported.ConsensusState, found bool)
+}
+
+type ConnectionKeeper interface {
+	GetConnection(ctx sdk.Context, connectionID string) (connection connectiontypes.ConnectionEnd, found bool)
 }
 
 type PortKeeper interface {
