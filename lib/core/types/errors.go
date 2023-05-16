@@ -12,7 +12,7 @@ import (
 )
 
 var (
-	ErrInvalidVersion         = sdkerrors.Register(ModuleName, 1100, "invalid cross module version")
+	ErrInvalidVersion         = sdkerrors.Register(ModuleName, 1100, "invalid nano module version")
 	ErrInvalidAcknowledgement = sdkerrors.Register(ModuleName, 1101, "invalid acknowledgement")
 	ErrAcknowledgementExists  = sdkerrors.Register(ModuleName, 1102, "acknowledgement for packet already exists")
 )

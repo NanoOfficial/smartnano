@@ -3,6 +3,7 @@ module github.com/NanoOfficial/smartnano
 go 1.19
 
 require (
+	github.com/bluele/interchain-simple-packet v0.0.0-20210621072258-be32aaced4b1
 	github.com/cosmos/cosmos-sdk v0.43.0-beta1
 	github.com/cosmos/ibc-go v1.0.0-beta1
 	github.com/gogo/protobuf v1.3.3

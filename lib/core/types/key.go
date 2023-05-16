@@ -14,12 +14,12 @@ import (
 )
 
 const (
-	ModuleName   = "cross"
-	Version      = "cross-1"
+	ModuleName   = "nano"
+	Version      = "nano-1"
 	StoreKey     = ModuleName
 	RouterKey    = ModuleName
 	QuerierRoute = ModuleName
-	PortID       = "cross"
+	PortID       = "nano"
 )
 
 var (
