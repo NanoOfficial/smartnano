@@ -5,7 +5,7 @@
 //
 //
 
-package types
+package common
 
 import "github.com/NanoOfficial/smartnano/lib/errors"
 
