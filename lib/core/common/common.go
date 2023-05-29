@@ -40,7 +40,7 @@ func RemoveFromSlice[T any](slice []*T, index int) []*T {
 }
 
 func CreateNodeID(version uint, name string) types.NodeID {
-	return types.NodeID("v" + strconv.Itoa(int(version)) + "." + name + "." + uuid.NewString())
+	return types.NodeID("v" + strconv.Itoa(int(version)) + "." + name + "." + uuid.Future.String())
 }
 
 func CreateNodeVersionName(version uint, name string) types.NodeVersionName {
