@@ -8,7 +8,7 @@
 package packets
 
 import (
-	"github.com/NanoOfficial/smartnano/lib/utils"
+	"github.com/NanoOfficial/smartnano/utils"
 	sptypes "github.com/bluele/interchain-simple-packet/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/ibc-go/modules/core/exported"

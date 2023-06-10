@@ -10,7 +10,7 @@ package common
 import (
 	"strconv"
 
-	types "github.com/NanoOfficial/smartnano/lib/core/common/types"
+	types "github.com/NanoOfficial/smartnano/core/common/types"
 	"github.com/google/uuid"
 )
 

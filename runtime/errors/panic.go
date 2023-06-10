@@ -1,4 +1,4 @@
-package errors
+package runtimeerrors
 
 import (
 	goRuntime "runtime"

@@ -10,8 +10,8 @@ package types
 import (
 	"fmt"
 
-	"github.com/NanoOfficial/smartnano/lib/core/types"
-	"github.com/NanoOfficial/smartnano/lib/utils"
+	"github.com/NanoOfficial/smartnano/core/types"
+	"github.com/NanoOfficial/smartnano/utils"
 )
 
 const (

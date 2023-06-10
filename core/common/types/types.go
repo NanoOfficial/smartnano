@@ -7,7 +7,7 @@
 
 package common
 
-import "github.com/NanoOfficial/smartnano/lib/errors"
+import "github.com/NanoOfficial/smartnano/errors"
 
 type (
 	NodeID          string
